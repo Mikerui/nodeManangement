@@ -14,4 +14,8 @@ express --version 查看版本
 安装数据库
 npm install mysql --save
 
+热启动
+npm install nodemon -g
+
+nodemon app.js
  

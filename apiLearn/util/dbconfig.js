@@ -15,7 +15,6 @@ module.exports = {
   sqlConnect:function(sql,sqlArr,callBack){
     var pool = mysql.createPool(this.config)
     pool.getConnection((err,conn)=>{
-      console.log(122);
       if(err){
         console.log('链接失败'+err);
         return
